@@ -1,0 +1,10 @@
+ACCESS_TOKEN_PRIVATE_KEY_PATH: "access-refresh-token-keys/access-token-private.key"
+ACCESS_TOKEN_PUBLIC_KEY_PATH: "access-refresh-token-keys/access-token-public.key"
+REFRESH_TOKEN_PRIVATE_KEY_PATH: "access-refresh-token-keys/refresh-token-private.key"
+REFRESH_TOKEN_PUBLIC_KEY_PATH: "access-refresh-token-keys/refresh-token-public.key"
+POSTGRE_USERNAME: "root"
+POSTGRE_PASSWORD: "root"
+POSTGRE_HOST: "localhost"
+POSTGRE_PORT: '5432'
+POSTGRE_DB: "valuutavahetus"
+POSTGRE_RS: "rs1"
