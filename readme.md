@@ -6,9 +6,9 @@
     - Kasutatud koodi stiliseerimise tööriistu: eslint + prettier
 - **BE:** Spring Boot 2.7.1, Java 17
     - Autoriseerimine OAuth 2.0-ga
-    - Andmebaas: PostgreSQL Dockeris
+    - Andmebaas: PostgreSQL 17 Dockeris
     - Testid: JUnit
-- **DB:** PostgreSQL Dockeris pordil 5432
+- **DB:** PostgreSQL 17 Dockeris pordil 5432(kui porti kasutab ntks Postgre server, tuleb see teenuste alt kinni panna (windows + R -> services.msc -> postgresql -> peata ))
 
 ## Projekti käivitus:
 
@@ -43,6 +43,6 @@ Nüüd peaksid olema valmis kasutama VALUUTAVAHETUS projekti nii frontendis kui 
 
 ## Kasutusjuhend:
 1. **Tavakasutaja**
-    - Saab / lehel valida valuuta ja konventeerida selle teise valuutasse või konventeerida valitud valuuta eurodesse
+    - Saab / lehel valida valuuta ja konventeerida valitud valuuta eurodesse või eurod valitud valuutasse
 2.  **Admin kasutaja**
-    - Saab lisada, muuta ja eemaldada valuutasid, valuutasid saab importida ka "Lae andmed nupuga", sellega laetakse Eesti Panga APIst kõige viimased andmed. Lisaks saab lisada uusi admin kasutajaid
+    - Saab lisada, muuta ja eemaldada valuutasid, valuutasid saab importida ka "Lae andmed nupuga". Sellega laetakse Eesti Panga APIst kõige viimased andmed. Lisaks saab lisada uusi admin kasutajaid
