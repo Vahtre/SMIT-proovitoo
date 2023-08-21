@@ -177,7 +177,7 @@ const ValuutaView: React.FC = () => {
 
     if (noRate) {
       setDuplicateErrorMessage(
-        ' Ühel või rohkemal valuutal pole määratud kurssi või see on negatiivne',
+        ' Ühel või rohkemal valuutal pole määratud nimetust või kurssi või see on negatiivne',
       );
       return;
     }
