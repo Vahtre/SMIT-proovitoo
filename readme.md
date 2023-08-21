@@ -23,7 +23,7 @@ Eeldusena peaksid olema installitud järgmised tööriistad: npm, Java 17, Docke
     - Käivita järgnevad käsud: `mvn compile` ja `mvn package`.
     - Selle käigus luuakse `/target` kausta `proovitoo-0.0.1-SNAPSHOT.jar` fail.
     - Käivita teenus `/target` kaustas, selle käivitamiseks kasutada käsku: `java -jar proovitoo-0.0.1-SNAPSHOT.jar`.
-    - BE teenus käivitub pordil 8080.
+    - BE teenus käivitub pordil 8080. Käivitamisel luuakse andmebaasi tabelid ja luuakse admin kasutaja
 
 3. **Käivita FE teenus:**
     - Liigu kausta `/frontend-service/valuutavahetus`.
@@ -32,6 +32,7 @@ Eeldusena peaksid olema installitud järgmised tööriistad: npm, Java 17, Docke
     - FE teenus käivitub pordil 3000.
 
 Nüüd peaksid olema valmis kasutama VALUUTAVAHETUS projekti nii frontendis kui ka backendis.
+Loodud on admin kasutaja, kasutajanime ja parooliga admin
 
 ## BE testide käivitus:
 
